@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import "theme.scss";
+
+html,body,app-root,mat-sidenav-container,.site{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.site{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex:1;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.fill-remaining-space{
+    flex: 1 1 auto;
+}

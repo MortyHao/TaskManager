@@ -1,0 +1,24 @@
+.card{
+    height: 360px;
+    flex:0 0 360px;
+    margin:10px;
+}
+// 原本是用host, 但我用project-list-container也实现了
+// :host{
+//     display:flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+// }
+
+.project-list-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fab-button{
+    position: fixed;
+    right:32px;
+    bottom:96px;
+    z-index: 998;
+}

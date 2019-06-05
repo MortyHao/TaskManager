@@ -1,0 +1,9 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button (click)="openSidebar()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <!-- <mat-icon svgIcon="gj"></mat-icon> -->
+    <span>Task Manager</span>
+    <span class="fill-remaining-space"></span>
+    <mat-slide-toggle (change)="onChange($event.checked)">Dark</mat-slide-toggle>
+  </mat-toolbar>

@@ -1,0 +1,24 @@
+<mat-nav-list>
+  <h3 mat-subheader>Task</h3>
+  <mat-list-item [routerLink]="['/project']">
+    <mat-icon mat-list-icon svgIcon="projects"></mat-icon>
+    <span mat-line>Task Home Page</span>
+    <span mat-line mat-subheader>Check All Tasks</span>
+  </mat-list-item>
+  <h3 mat-subheader>Calendar</h3>
+  <mat-list-item [routerLink]="['/task']">
+    <mat-icon mat-list-icon svgIcon="month"></mat-icon>
+    <span mat-line>Month</span>
+    <span mat-line mat-subheader>Check Month Tasks</span>
+  </mat-list-item>
+  <mat-list-item>
+    <mat-icon mat-list-icon svgIcon="week"></mat-icon>
+    <span mat-line>Week</span>
+    <span mat-line mat-subheader>Check Week Tasks</span>
+  </mat-list-item>
+  <mat-list-item>
+    <mat-icon mat-list-icon [svgIcon]="today"></mat-icon>
+    <span mat-line>Day</span>
+    <span mat-line mat-subheader>Check Day Tasks</span>
+  </mat-list-item>
+</mat-nav-list>

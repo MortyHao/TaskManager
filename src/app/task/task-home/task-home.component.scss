@@ -1,0 +1,40 @@
+.fab-button{
+    position: fixed;
+    right:32px;
+    bottom:96px;
+    z-index: 998;
+}
+
+.task-home-container{
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x:scroll;
+
+}
+.task-list-container{
+    flex: 0 0 360px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+// #container1{
+//     height: 100%;
+//     width: 100%;
+//     border: 1px solid green;
+//     overflow: hidden;
+// }
+
+// #container2{
+//     width: 100%;
+//     height: 99%;
+//     border: 1px solid blue;
+//     overflow: auto;
+//     padding-right: 15px;
+// }
+
+.drag-enter{
+    background-color:grey;
+}
